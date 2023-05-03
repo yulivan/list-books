@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>libros</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- FONTAWESOME-ICONS -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- My Style -->
+  <link rel="stylesheet" type="text/css" href="public/style.css">
+</head>
+
+<body>
+
+  <main>
+    <!--x title x-->
+    <div class="titulo">
+      <i class="fa fa-book-open"></i>
+      <h1>Libros</h1>
+    </div>
+
+    <!-- ----------------- LISTA LIBROS TABLE ------------------------ -->
+    <section class="listalibro">
+      <div class="cabecera">
+        <div class="col-lis"><span>Libro</span></div>
+        <div class="col-lis"><span>Descripcion</span></div>
+        <div class="col-lis"><span>Categoria</span></div>
+        <div class="col-lis"><span>Acciones</span></div>
+      </div>
+
+      <div class="contenido">
+        <!------------LISTA---FILA-----codificar------->
+        <div class="contenedor">
+          <div class="fila">
+            <div class="subfila">
+              <div class="fila1">
+                <img src="public/images/brilla-todo.jpg" alt="milibro">
+              </div>
+              <div class="fila1">
+                <h2>Brilla todo lo que puedas</h2>
+                <address>Sara Rattaro</address>
+                <span>2017 - Duomo Nefelibata</span>
+              </div>
+            </div>
+          </div>
+          <div class="fila">
+            <p class="descrip">Una historia inspiradora donde del dolor nace la esperanza</p>
+          </div>
+          <div class="fila">
+            <p>Novela</p>
+          </div>
+          <div class="fila">
+            <div class="acciones-btn">
+              <button class="btn-accion">
+                <div class="relieve">
+                  <i class="fa fa-feather-alt" aria-hidden="true"></i>
+                </div>
+                <span>Editar</span>
+              </button>
+              <button class="btn-accion">
+                <div class="relieve">
+                  <i class="fa fa-trash-alt" aria-hidden="true"></i>
+                </div>
+                <span>Borrar</span>
+              </button>
+            </div>
+          </div>
+        </div> <!-- contenedor -->
+        <!-----X-------LISTA---FILA-----codificar---X---->
+
+        <div class="contenedor">
+          <div class="fila">
+            <div class="subfila">
+              <div class="fila1">
+                <img src="public/images/lachica-del-tren.jpg" alt="milibro">
+              </div>
+              <div class="fila1">
+                <h2>La chica del tren</h2>
+                <address>Paula Hawkins</address>
+                <span>2018 - Planeta</span>
+              </div>
+            </div>
+          </div>
+          <div class="fila fila-descrip">
+            <p class="descrip">Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+          <div class="fila">
+            <p>categoria</p>
+          </div>
+          <div class="fila">
+            <div class="acciones-btn">
+              <button class="btn-accion">
+                <div class="relieve">
+                  <i class="fa fa-feather-alt" aria-hidden="true"></i>
+                </div>
+                <span>Editar</span>
+              </button>
+              <button class="btn-accion">
+                <div class="relieve">
+                  <i class="fa fa-trash-alt" aria-hidden="true"></i>
+                </div>
+                <span>Borrar</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="contenedor">
+          <div class="fila">
+            <div class="subfila">
+              <div class="fila1">
+                <img src="public/images/ysite-vuelvo.jpg" alt="milibro">
+              </div>
+              <div class="fila1">
+                <h2>¿Y si te vuelvo a Encontrar?</h2>
+                <address>Carol B. A.</address>
+                <span>2016 - Zafiro</span>
+              </div>
+            </div>
+          </div>
+          <div class="fila fila-descrip">
+            <p class="descrip">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="fila">
+            <p>categoria</p>
+          </div>
+          <div class="fila">
+            <div class="acciones-btn">
+              <button class="btn-accion">
+                <div class="relieve">
+                  <i class="fa fa-feather-alt" aria-hidden="true"></i>
+                </div>
+                <span>Editar</span>
+              </button>
+              <button class="btn-accion">
+                <div class="relieve">
+                  <i class="fa fa-trash-alt" aria-hidden="true"></i>
+                </div>
+                <span>Borrar</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- contenido -->
+
+    </section>
+    <!-- --------x--------- LISTA LIBROS TABLE ---------x----------- -->
+
+    <!---------------- PAGINACION ---------------------->
+    <div class="block-27">
+      <ul class="pagination" id="paginador">
+        <!------------- CODIFICAR -------------->
+
+        <!-- boton previo-atras -->
+        <li><a href="#" class="prev_link">
+            <span aria-hidden="true">
+              <span class="fa fa-chevron-left"></span>
+            </span>
+          </a></li>
+        <!-- lista de paginas -->
+        <li class="active"><a href="#" class="page_link"><span>1</span></a></li>
+        <li><a href="#" class="page_link"><span>2</span></a></li>
+        <li><a href="#" class="page_link"><span>3</span></a></li>
+        <!-- boton siguiente -->
+        <li><a href="#" class="next_link">
+            <span aria-hidden="true">
+              <span class="fa fa-chevron-right"></span>
+            </span>
+          </a></li>
+        <!-- ------X----- CODIFICAR -------x------- -->
+
+      </ul>
+    </div>
+
+    <!-------X--------- PAGINACION ----------X------------>
+
+    <footer>
+      <span>&copy; 2020 - IngSoftware</span>
+      <a href="https://www.paypal.com/paypalme/yuliver" class="btn-donar" target="_blank">
+        Donar
+        <i class="fas fa-heart"></i>
+      </a>
+    </footer>
+
+  </main>
+  <!-- ------------------------------------FIN----------------------------------- -->
+
+  <!-- FONTAWESOME-ICONS-JS  -->
+  <script src="vendor/fontawesome-free/css/fontawesome.min.css"></script>
+
+</body>
+
+</html>
